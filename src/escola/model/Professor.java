@@ -37,6 +37,17 @@ public class Professor extends Pessoa{
 		super.visualizar();//estamos recuperando o método visualizar 
 		System.out.println("Disciplina: "+ this.disciplina);//saída do atributo que é unico para o Professor
 	}
+
+	@Override
+	public void acompanharCanvas() {
+		// TODO Auto-generated method stub
+		
+		System.out.println("Olá professor(A), verifique diariamente as entregas no canvas.");
+	}
+
+	public void legal() {
+		System.out.println("O professor é legal");
+	}
 	
 	
 }

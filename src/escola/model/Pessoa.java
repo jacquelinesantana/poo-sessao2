@@ -27,6 +27,10 @@ public abstract class Pessoa {
 		this.email = email;
 		this.telefone = telefone;
 	}
+	
+public Pessoa() {
+		
+	} 
 
 	
 
@@ -85,5 +89,7 @@ public abstract class Pessoa {
 		System.out.println(" ********* Dados do Cadastro:"+this.id+" *********");
 		System.out.println("Nome: "+ this.nome + " telefone: " + this.telefone);
 	}
+	
+	public abstract void acompanharCanvas();
 	
 }

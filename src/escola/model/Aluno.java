@@ -17,6 +17,10 @@ public final class Aluno extends Pessoa {
 		this.anoMatricula = anoMatricula;
 		this.telResponsavel = telResponsavel;
 	}
+	
+	public Aluno() {
+		
+	}
 
 	public String getNomeResponsavel() {
 		return nomeResponsavel;
@@ -50,6 +54,10 @@ public final class Aluno extends Pessoa {
 		System.out.println("Nome do Responsável: "+ this.nomeResponsavel);
 	}
 	
-	
+	@Override
+	public void acompanharCanvas() {
+		System.out.println("Alune! Verifique o seu canvas diariamente, faça  o Barometro!");
+	}
+
 	
 }

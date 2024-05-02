@@ -1,5 +1,6 @@
 package escola;
 
+import escola.controller.AlunoController;
 import escola.model.Aluno;
 import escola.model.Pessoa;
 import escola.model.Professor;
@@ -19,10 +20,16 @@ public class TestandoEscola {
 		//Pessoa x = new Pessoa(5, "Vinicius", 25, "Masculino", "vinicius_kbc@hotmail.com", "(11)9.7070-7070");
 		
 		a.visualizar();
+		a.acompanharCanvas();
+		//a.legal();
+		
 		p.visualizar();
+		p.acompanharCanvas();
+		p.legal();
 		
-		
-		
+		//----- chamando nossa classe controller
+		AlunoController alunoContr = new AlunoController();
+		alunoContr.fazerExercicio();
 	}
 
 }
