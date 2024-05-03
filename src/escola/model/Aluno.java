@@ -59,5 +59,12 @@ public final class Aluno extends Pessoa {
 		System.out.println("Alune! Verifique o seu canvas diariamente, faça  o Barometro!");
 	}
 
+	@Override
+	public float salarioLiquido(float salario) {
+		// preciso definir um salario liquido para cumprir com o acordo da classe mãe
+		
+		return salario -10;
+	}
+
 	
 }

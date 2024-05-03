@@ -92,4 +92,6 @@ public Pessoa() {
 	
 	public abstract void acompanharCanvas();
 	
+	public abstract float salarioLiquido(float salario);
+	
 }

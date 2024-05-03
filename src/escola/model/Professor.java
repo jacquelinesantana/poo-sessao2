@@ -49,5 +49,15 @@ public class Professor extends Pessoa{
 		System.out.println("O professor é legal");
 	}
 	
+	public void bolinha() {
+		
+	}
+	
+	@Override //override anotação do java / toda vez que ele aparece ele verificar se o metodo abaixo existe na classe mãe
+	public float salarioLiquido(float salario) {
+		// calcular o salario do professor
+		return salario - 150;
+	}
+	
 	
 }
